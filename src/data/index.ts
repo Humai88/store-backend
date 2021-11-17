@@ -26,11 +26,12 @@ const clothesSizes = new AttributeSet("Size").addItemList([
 const colors = new AttributeSet("Color")
   .setType(AttributeType.swatch)
   .addItemList([
-    new Attribute("Green", "#44FF03"),
-    new Attribute("Cyan", "#03FFF7"),
-    new Attribute("Blue", "#030BFF"),
+    new Attribute("Red", "#FF2626"),
+    new Attribute("Green", "#184D47"),
+    new Attribute("Cyan", "#71DFE7"),
+    new Attribute("Blue", "#035397"),
     new Attribute("Black", "#000000"),
-    new Attribute("White", "#FFFFFF"),
+    new Attribute("Grey", "#C8C6C6"),
   ]);
 
 const yesNo = [new Attribute("Yes"), new Attribute("No")];
@@ -67,7 +68,7 @@ const products: Product[] = [
     .addAttributeSet(clothesSizes)
     .setBrand("Burton")
     .setDescription(
-      "<p>This best-selling style from Barneys Originals is made from super soft sheep nappa leather. The jacket features ribbed detailing on the sleeves which is enhanced with wadding. It also has an asymmetric zipline</p>"
+      "<p>This best-selling style from Burton Originals is made from super soft sheep nappa leather. The jacket features ribbed detailing on the sleeves which is enhanced with wadding. It also has an asymmetric zipline</p>"
     )
     .setCategory(Category.clothes),
 
@@ -112,6 +113,7 @@ const products: Product[] = [
     ])
     .addAttributeSet(clothesSizes)
     .setBrand("Superdry")
+    .addAttributeSet(colors)
     .setDescription(
       "<p>Red overhead hoodie with a front pocket. Size & Fit: Model's height: 6 foot 1 Model is wearing size: Medium Fabric & Care:52% Cotton, 48% Polyester. Machine washable.</p>"
     )
