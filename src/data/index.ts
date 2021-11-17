@@ -51,11 +51,13 @@ const products: Product[] = [
     ])
     .addAttributeSet(clothesSizes)
     .setBrand("Zara")
-    .setDescription("<p>Awesome denim coat made using orgaic cotton</p>")
+    .setDescription(
+      "<p>Comfortable and versatile, slip into a denim jacket for easy, off-duty style. An ideal alternative to coats, our women's denim jackets are an on-trend essential. In a variety of washes and fabrics, wear a cropped denim jacket with a slogan tee, co-ordinating jeans and trainers. Take it to the evening and wear a black denim jacket with a cami top and heels. Style: Oversized JacketsFabric: Denim</p>"
+    )
     .setCategory(Category.clothes),
 
   new Product("Leather Jacket")
-    .setId("mango-leather-jacket")
+    .setId("burton-leather-jacket")
     .setPrice(430)
     .addImages([
       "https://i.ibb.co/wNjktWG/Handsome-relaxed-redhead-man-standing-casual-holding-hands-in-pockets-and-smiling-happy-Strong-attra.jpg",
@@ -63,14 +65,18 @@ const products: Product[] = [
       "https://i.ibb.co/MNSLk39/Handsome-relaxed-redhead-man-standing-casual-holding-hands-in-pockets-and-smiling-happy-Strong-attra.jpg",
     ])
     .addAttributeSet(clothesSizes)
-    .setBrand("Mango")
-    .setDescription("<p>Awesome black rocy leather jacket</p>")
+    .setBrand("Burton")
+    .setDescription(
+      "<p>This best-selling style from Barneys Originals is made from super soft sheep nappa leather. The jacket features ribbed detailing on the sleeves which is enhanced with wadding. It also has an asymmetric zipline</p>"
+    )
     .setCategory(Category.clothes),
 
   new Product("Casual Dress")
     .setId("mango-casual-dress")
     .setPrice(110)
-    .setDescription("<p>Best choise for everyday</p>")
+    .setDescription(
+      "<p> Crafted in a slinky jersey, this printed midi dress is designed in a fixed wrap style. Complete with long length sleeves and an all-over geometric print, pair with heeled boots for an easy-to-wear evening look. Model wears a size 10 and is 176cm.</p>"
+    )
     .addImages([
       "https://i.ibb.co/JxfcPk5/Graceful-european-woman-in-winter-fur-coat-and-stylish-dress-sitting-in-studio-over-white-background.jpg",
       "https://i.ibb.co/KLjD3X1/Graceful-european-woman-in-winter-fur-coat-and-stylish-dress-sitting-in-studio-over-white-background.jpg",
@@ -91,7 +97,9 @@ const products: Product[] = [
     ])
     .addAttributeSet(clothesSizes)
     .setBrand("Canada Goose")
-    .setDescription("<p>Awesome winter coat</p>")
+    .setDescription(
+      "<p>This coat comes in soft, thick faux wool fabric and features a cocoon silhouette known for its loose-fit and voluminous sleeves - perfect for layering, a longline design draping just below the knee, lapels at the front, and button-front closure. Style over a hoodie or sweater. Style:Wool Coat Fit: Relaxed Length: Longline Occasion: Casual Model is 5'9'' and wears a size M (US size 6/UK size 10).</p>"
+    )
     .setCategory(Category.clothes),
 
   new Product("Hoodie")
@@ -104,7 +112,9 @@ const products: Product[] = [
     ])
     .addAttributeSet(clothesSizes)
     .setBrand("Superdry")
-    .setDescription("<p>Awesome casual hoodie</p>")
+    .setDescription(
+      "<p>Red overhead hoodie with a front pocket. Size & Fit: Model's height: 6 foot 1 Model is wearing size: Medium Fabric & Care:52% Cotton, 48% Polyester. Machine washable.</p>"
+    )
     .setCategory(Category.clothes),
 
   new Product("Shirt")
@@ -116,7 +126,9 @@ const products: Product[] = [
     ])
     .addAttributeSet(clothesSizes)
     .setBrand("Superdry")
-    .setDescription("<p>Awesome checked shirt</p>")
+    .setDescription(
+      "<p>In a classic checked design, the Superdry shirt is an easy wardrobe staple. It features a button down front and 2 chest pockets.</p>"
+    )
     .setCategory(Category.clothes),
 
   new Product("PlayStation 5")
